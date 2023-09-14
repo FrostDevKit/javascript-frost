@@ -1,2 +1,2 @@
 # Frost-js
-Frost in Javascript (Alpha software
+Frost in Javascript (Alpha software)
