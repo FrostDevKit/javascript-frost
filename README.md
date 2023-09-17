@@ -1,3 +1,3 @@
-# Frost Js
+# Frost (Javascript)
 
-Frost in Javascript (Alpha software)
+Library Frost in Javascript
