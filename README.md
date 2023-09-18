@@ -6,3 +6,4 @@ Library Frost in Javascript
 
 - [ ] Replace modules for Bitcoinjs-lib
 - [ ] FOSS
+- [ ] Alpha software
