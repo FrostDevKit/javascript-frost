@@ -4,6 +4,9 @@ const fs = require('fs');
 const WebSocket = require('ws');
 const bitcoin = require('bitcoinjs-lib');
 
+const NETWORK = bitcoin.networks.testnet
+
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
