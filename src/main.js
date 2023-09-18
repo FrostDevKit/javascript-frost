@@ -2,6 +2,7 @@ const readline = require('readline');
 const crypto = require('crypto');
 const fs = require('fs');
 const WebSocket = require('ws');
+const bitcoin = require('bitcoinjs-lib');
 
 const rl = readline.createInterface({
   input: process.stdin,
