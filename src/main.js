@@ -1,8 +1,5 @@
-const readline = require('readline');
-const crypto = require('crypto');
-const fs = require('fs');
-const WebSocket = require('ws');
-const bitcoin = require('bitcoinjs-lib');
+import {Key, Signer, partires, index, pair } from ''bitcoinjs-lib';
+
 
 const NETWORK = bitcoin.networks.testnet;
 
