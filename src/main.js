@@ -1,4 +1,5 @@
-import {Key, Signer, partires, index, pair } from ''bitcoinjs-lib';
+import {Key, Signer, partires, index, pair } from 'bitcoinjs-lib';
+import {Relays, Events, Npub, Nsec } from 'nostr-tools;
 
 
 const NETWORK = bitcoin.networks.testnet;
