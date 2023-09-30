@@ -4,6 +4,5 @@ Library Frost in Javascript
 
 ## To-Do
 
-- [ ] Replace modules for Bitcoinjs-lib
-- [ ] FOSS
-- [ ] Alpha software
+- [x] Replace modules for Bitcoinjs-lib
+- [x] Alpha software
