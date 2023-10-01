@@ -1,4 +1,4 @@
-import {Key, Signer, partires, index, pair } from 'bitcoinjs-lib';
+import {Key, Signer, Partires, Index, Pair } from 'bitcoinjs-lib';
 import {Relays, Events, Npub, Nsec } from 'nostr-tools;
 
 
