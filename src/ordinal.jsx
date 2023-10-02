@@ -1,7 +1,5 @@
 import {Key, Signer, Partires, Index, Pair, Schnorr, Rand } from 'bitcoinjs-lib';
 import {Value, 
-  AddressesParam,
-  BlockHeightParam,
   BlockInscriptionTransferSchema,
   BlockParam,
   CursedParam,
@@ -16,11 +14,6 @@ import {Value,
   MimeTypesParam,
   NotFoundResponse,
   OffsetParam,
-  Order,
-  OrderBy,
-  OrderByParam,
-  OrderParam,
-  OrdinalParam,
   OutputParam,
   PaginatedResponse,
   RecursiveParam,
@@ -32,7 +25,7 @@ import {Value,
   parseBlockTransfers,
   parseDbInscription,
   parseDbInscriptions,
-  parseInscriptionLocation
+  parseInscriptionLocation,
 } from 'ordinals-api';
 
 import {Key, Signer, Partires, Index, Pair, Schnorr, Rand } from 'bitcoinjs-lib';
