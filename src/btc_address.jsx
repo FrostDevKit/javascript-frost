@@ -180,8 +180,8 @@ function broadcastXpub(xpub) {
   const XpubJson = JSON.stringify(Xpub);
   console.log(eventJson);
 
-  const eventMsg = JSON.stringify(['XPUB', event]);
-  console.log(eventMsg);
+  const xpubMsg = JSON.stringify(['XPUB', event]);
+  console.log(xpubMsg);
 
   for (const pubkey of xpubs) {
     publishToXpub(xpub, pubkey);
@@ -219,7 +219,7 @@ function main() {
         1,
         [],
         xpubPostStr,
-        xpubTime
+        xpubTime,
       );
 
       const schnorrMessage = unsignedFrostrXpub.hash_bytes;
