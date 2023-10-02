@@ -1,42 +1,5 @@
 import {Key, Signer, Partires, Index, Pair, Schnorr, Rand } from 'bitcoinjs-lib';
-import {NETWORKS, Seperator, fullDerivationPath, partialKeyDerivationPath, deriveChildPublicKey, networkData } from 'xpub-tools';
 import {Relays, Events, Npub, Nsec } from 'nostr-tools;
-import {Value, 
-  AddressesParam,
-  BlockHeightParam,
-  BlockInscriptionTransferSchema,
-  BlockParam,
-  CursedParam,
-  InscriptionIdParamCType,
-  InscriptionIdentifierParam,
-  InscriptionIdsParam,
-  InscriptionLocationResponseSchema,
-  InscriptionNumberParam,
-  InscriptionNumbersParam,
-  InscriptionResponse,
-  LimitParam,
-  MimeTypesParam,
-  NotFoundResponse,
-  OffsetParam,
-  Order,
-  OrderBy,
-  OrderByParam,
-  OrderParam,
-  OrdinalParam,
-  OutputParam,
-  PaginatedResponse,
-  RecursiveParam,
-  SatoshiRaritiesParam,
-  TimestampParam, 
-  DEFAULT_API_LIMIT,
-  blockParam,
-  hexToBuffer,
-  parseBlockTransfers,
-  parseDbInscription,
-  parseDbInscriptions,
-  parseInscriptionLocation
-} from 'ordinals-api';
-
 
 
 const NETWORK = bitcoin.networks.testnet;
