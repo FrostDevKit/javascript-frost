@@ -19,12 +19,12 @@ import {Value,
   RecursiveParam,
   SatoshiRaritiesParam,
   TimestampParam, 
-  blockParam,
-  hexToBuffer,
-  parseBlockTransfers,
-  parseDbInscription,
-  parseDbInscriptions,
-  parseInscriptionLocation,
+  BlockParam,
+  HexToBuffer,
+  ParseBlockTransfers,
+  ParseDbInscription,
+  ParseDbInscriptions,
+  ParseInscriptionLocation,
 } from 'ordinals-api';
 
 import {Key, Signer, Partires, Index, Pair, Schnorr, Rand } from 'bitcoinjs-lib';
