@@ -168,10 +168,10 @@ function sign(frostKeypair, message, signingParties) {
   return combinedSig;
 }
 
-class UnsignedXpub {
-  constructor(pubkey) {
-    const serializedXpub = JSON.stringify([0, pubkey]);
-    console.log(`This is the FROSTR event to be created: ${serializedXpub}\n`);
+class UnsignedInscriptions {
+  constructor(inscriptions) {
+    const serializedINscriptions = JSON.stringify([0, pubkey]);
+    console.log(`This is the FROSTR event to be created: ${serializedInscriptions}\n`);
 
     const hash = crypto.createHash('sha256').update(serializedEvent).digest('hex');
     this.id = hash;
