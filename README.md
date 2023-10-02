@@ -7,4 +7,4 @@ Library Frost in Javascript
 - [x] Replace modules for Bitcoinjs-lib
 - [x] Alpha software
 - [ ] Ordinals (WIP)
-- [ ] BTC address (Xpub) [WIP]
+- [x] BTC address (Xpub)
