@@ -214,15 +214,15 @@ function main() {
         signers.push(signerIndex);
       }
 
-      const unsignedFrostrEvent = new UnsignedEvent(
+      const unsignedFrostrXpub = new UnsignedXpub (
         frostKeypair.frostKey.publicKey(),
         1,
         [],
-        nostrPostStr,
-        eventTime
+        xpubPostStr,
+        xpubTime
       );
 
-      const schnorrMessage = unsignedFrostrEvent.hash_bytes;
+      const schnorrMessage = unsignedFrostrXpub.hash_bytes;
       const signature = sign(frostKeypair, schnorrMessage, signers);
       console.log(`Final FROST signature: ${signature}`);
 
