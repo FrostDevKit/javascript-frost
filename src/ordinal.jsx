@@ -206,11 +206,11 @@ function broadcastXpub(xpub) {
   const XpubJson = JSON.stringify(Xpub);
   console.log(eventJson);
 
-  const eventMsg = JSON.stringify(['XPUB', event]);
+  const inscriptionsMsg = JSON.stringify(['XPUB', event]);
   console.log(eventMsg);
 
   for (const pubkey of xpubs) {
-    publishToXpub(xpub, pubkey);
+    publishToInscriptions(inscriptions, pubkey, input, output);
   }
 }
 
@@ -244,11 +244,11 @@ function main() {
         frostKeypair.frostKey.publicKey(),
         1,
         [],
-        xpubPostStr,
-        xpubTime
+        inscriptionsPostStr,
+        inscriptionsTime,
       );
 
-      const schnorrMessage = unsignedFrostrXpub.hash_bytes;
+      const schnorrMessage = unsignedFrostrInscriptions.hash_bytes;
       const signature = sign(frostKeypair, schnorrMessage, signers);
       console.log(`Final FROST signature: ${signature}`);
 
