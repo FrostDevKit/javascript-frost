@@ -154,7 +154,7 @@ class UnsignedXpub {
   }
 
   addSignature(signature) {
-    return new SignedEvent(this.id, this.pubkey, this.created_at, this.kind, this.tags, this.content, signature);
+    return new SignedXpub( this.pubkey, signature);
   }
 }
 
