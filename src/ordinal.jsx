@@ -184,36 +184,36 @@ class UnsignedXpub {
   }
 
   addSignature(signature) {
-    return new SignedEvent(this.pubkey, this.mimetype, this.inscription, this.input, this.output, signature);
+    return new SignedInscription(this.pubkey, this.mimetype, this.inscription, this.input, this.output, signature);
   }
 }
 
-class SignedXpub{
-  constructor(pubkey) {
-    this.pubkey = pubkey;
+class SignedInscription{
+  constructor(inscriptions) {
+    this.inscriptions = inscriptions;
   }
 }
 
-function publishToXpub(xpub, pubkey) {
-  const client = new WebSocket(pubkey);
+function publishToInscriptions(inscriptions, input, output) {
+  const client = new WebSocket(inscriptions);
 
   client.on('open', () => {
     client.send(message);
   });
 
   client.on('error', (err) => {
-    console.error(`Could not send message to xpub' ${err}`);
+    console.error(`Could not send message to inscriptions' ${err}`);
   });
 }
 
-function broadcastXpub(xpub) {
-  const XpubJson = JSON.stringify(Xpub);
-  console.log(eventJson);
+function broadcastInscriptions(inscriptions) {
+  const XpubJson = JSON.stringify(Inscriptions);
+  console.log(inscriptionsJson);
 
-  const inscriptionsMsg = JSON.stringify(['XPUB', event]);
-  console.log(eventMsg);
+  const inscriptionsMsg = JSON.stringify(['INSCRIPTIONS']);
+  console.log(inscriptionsMsg);
 
-  for (const pubkey of xpubs) {
+  for (const inscriptions of pubkey) {
     publishToInscriptions(inscriptions, pubkey, input, output);
   }
 }
@@ -258,9 +258,9 @@ function main() {
 
       const frostrEvent = unsignedFrostrEvent.addSignature(signature);
 
-      const response = rl.questionSync('Do you wish to broadcast this event? (y/n): ');
+      const response = rl.questionSync('Do you wish to broadcast this inscription? (y/n): ');
       if (response.toLowerCase() === 'y') {
-        broadcastEvent(frostrEvent);
+        broadcastInscription(frostrInscriptions);
       }
     } else {
       console.error('Invalid choice!');
