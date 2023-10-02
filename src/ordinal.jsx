@@ -176,11 +176,15 @@ class UnsignedXpub {
     const hash = crypto.createHash('sha256').update(serializedEvent).digest('hex');
     this.id = hash;
     this.pubkey = pubkey;
+    this.mimetype = mimetype;
+    this.inscription = inscription;
+    this.input = input;
+    this.output = output;
     this.hash_bytes = Buffer.from(hash, 'hex');
   }
 
   addSignature(signature) {
-    return new SignedEvent(this.id, this.pubkey, this.created_at, this.kind, this.tags, this.content, signature);
+    return new SignedEvent(this.pubkey, this.mimetype, this.inscription, this.input, this.output, signature);
   }
 }
 
