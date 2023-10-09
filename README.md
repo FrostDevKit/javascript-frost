@@ -1,4 +1,4 @@
-# Frost (Javascript)
+# Frost (Javascript) 🔑
 
 Library Frost in Javascript
 
@@ -8,6 +8,6 @@ Library Frost in Javascript
 - [x] Alpha software
 - [x] Ordinals
 - [x] BTC address (Xpub)
-- [ ] Add new modules
-- [ ] Let software stable
+- [ ] Add new modules (WIP)
+- [ ] Let software stable (WIP)
 
