@@ -8,6 +8,6 @@ Library Frost in Javascript
 - [x] Alpha software
 - [x] Ordinals
 - [x] BTC address (Xpub)
-- [ ] Add new modules (WIP)
+- [x] Add new modules (WIP)
 - [ ] Let software stable (WIP)
 
