@@ -1,3 +1,5 @@
+import { SchnorrSignature, keys, rng } 
+
 // Define WriteAddendum function
 function writeAddendum(data, writer) {
   // Implement the write logic
