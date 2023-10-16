@@ -1,4 +1,4 @@
-import { SchnorrSignature, keys, rng } 
+import { SchnorrSignature, keys, rng } from 'bitcoinjs-lib';
 
 // Define WriteAddendum function
 function writeAddendum(data, writer) {
