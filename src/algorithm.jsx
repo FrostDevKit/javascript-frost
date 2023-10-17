@@ -29,6 +29,11 @@ class Algorithm {
 
   preprocessAddendum(rng, keys) {
     // Implement the preprocessAddendum logic
+    class PreprocessAdendum {
+    constructor(rng, keys) {
+      this.keys = keys;
+      this.rng = rng;
+      
   }
 
   // Implement other Algorithm methods
