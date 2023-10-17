@@ -2,7 +2,11 @@ import { SchnorrSignature, keys, rng } from 'bitcoinjs-lib';
 
 // Define WriteAddendum function
 function writeAddendum(data, writer) {
-  // Implement the write logic
+  // Logic for addendum
+  constructor (data, writer) {
+    this.data = data;
+    this.writer = writer;
+    
 }
 
 // Define Addendum interface
