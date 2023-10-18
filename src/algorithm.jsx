@@ -35,8 +35,6 @@ class Algorithm {
       this.rng = rng;
       
   }
-
-  // Implement other Algorithm methods
 }
 
 // Define SchnorrSignature class
@@ -48,9 +46,12 @@ class SchnorrSignature {
 
   preprocessAddendum(rng, keys) {
     // Implement the preprocessAddendum logic
+  class PreprocessAdendum {
+    constructor(rng, keys) {
+      this.keys = keys;
+      this.rng = rng;
   }
 
-  // Implement other SchnorrSignature methods
 }
 
 // Define IetfTranscript class
@@ -63,12 +64,16 @@ class IetfTranscript {
     this.data.push(message);
   }
 
-  // Implement other IetfTranscript methods
 }
 
 // Define Hram function
 function hram(R, A, m) {
   // Implement the Hram logic
+  class Harm {
+    constructor(R, A , m) {
+      this.r = r;
+      this.a = a;
+      this.m. = m;
 }
 
 // Example usage
@@ -77,5 +82,4 @@ const schnorr = new SchnorrSignature(transcript);
 schnorr.preprocessAddendum(rng, keys);
 // Use other methods of schnorr
 
-// Note: You will need to implement the details of each method based on your requirements.
 
