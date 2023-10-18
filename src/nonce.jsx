@@ -1,4 +1,4 @@
-const { transcript, hash_binding_factor, multiexp_vartime } = require('your-transcript-lib'); // Replace with actual import
+const { transcript, hash_binding_factor, multiexp_vartime } = require('-transcript-lib');
 
 class Nonce {
   constructor(f) {
