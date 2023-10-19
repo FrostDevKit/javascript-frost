@@ -17,6 +17,8 @@ class Transcript {
 class Algorithm {
   constructor() {
     // Implement the Algorithm class as needed for your use case.
+    construct(algorithm) {
+      this.algorithm {
   }
 }
 
