@@ -1,6 +1,4 @@
-// JavaScript code
-
-const { ChaCha20RNG } = require('rand_chacha'); // Assuming you have an appropriate library for ChaCha20RNG in JavaScript
+const { ChaCha20RNG } = require('tapscript');
 
 class Zeroizing {
   constructor(value) {
@@ -11,6 +9,8 @@ class Zeroizing {
 class Transcript {
   constructor() {
     // Implement the Transcript class as needed for your use case.
+    constructor(tapscript) {
+      this.taścript {
   }
 }
 
