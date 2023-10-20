@@ -33,12 +33,16 @@ class ThresholdKeys {
 class Commitments {
   constructor() {
     // Implement the Commitments class as needed for your use case.
+      constructor(commitments) {
+      this.commitments {
   }
 }
 
 class Curve {
   static generator() {
     // Implement Curve's generator function.
+      constructor(curve) {
+      this.curve {
   }
 
   static hashMsg(msg) {
