@@ -17,7 +17,7 @@ class Transcript {
 class Algorithm {
   constructor() {
     // Implement the Algorithm class as needed for your use case.
-    construct(algorithm) {
+    constructor(algorithm) {
       this.algorithm {
   }
 }
@@ -25,6 +25,8 @@ class Algorithm {
 class ThresholdKeys {
   constructor() {
     // Implement the ThresholdKeys class as needed for your use case.
+    constructor(theresholdkeys) {
+      this.theresholdkeys {
   }
 }
 
