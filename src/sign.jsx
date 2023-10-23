@@ -47,6 +47,8 @@ class Curve {
 
   static hashMsg(msg) {
     // Implement Curve's hashMsg function.
+    constructor(hashmsg) {
+      this.msg {
   }
 }
 
