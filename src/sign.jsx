@@ -55,6 +55,8 @@ class Curve {
 class Nonce {
   constructor() {
     // Implement the Nonce class as needed for your use case.
+    constructor(nonce) {
+    this.nonce {
   }
 }
 
