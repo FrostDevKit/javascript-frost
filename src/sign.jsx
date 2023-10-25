@@ -88,6 +88,8 @@ class CachedPreprocess {
 class Writable {
   constructor() {
     // Implement the Writable class as needed for your use case.
+    constructor(writable) {
+      this.writable = writable;
   }
 
   serialize() {
