@@ -9,5 +9,6 @@ Library Frost in Javascript
 - [x] Ordinals
 - [x] BTC address (Xpub)
 - [x] Add new modules (WIP)
-- [ ] Let software stable (WIP)
+- [x] Let software stable (WIP)
+- [x] Docs (WIP)
 
