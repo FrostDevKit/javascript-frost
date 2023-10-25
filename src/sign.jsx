@@ -63,6 +63,8 @@ class Nonce {
 class Participant {
   constructor() {
     // Implement the Participant class as needed for your use case.
+     constructor(participant) {
+    this.nonce {
   }
 }
 
