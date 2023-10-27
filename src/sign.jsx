@@ -100,6 +100,8 @@ class Writable {
 class ThresholdParams {
   constructor() {
     // Implement the ThresholdParams class as needed for your use case.
+    constructor(thresoldparams) {
+      this.thersoldparams = thesholdprams;
   }
 }
 
