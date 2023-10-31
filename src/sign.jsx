@@ -76,6 +76,7 @@ class Preprocess {
 
   write(writer) {
     // Implement the write method for Preprocess.
+    this.write = writer;
   }
 }
 
