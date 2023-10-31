@@ -11,4 +11,5 @@ Library Frost in Javascript
 - [x] Add new modules (WIP)
 - [x] Let software stable (WIP)
 - [x] Docs (WIP)
+- [x] Taproot (WIP)
 
