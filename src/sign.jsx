@@ -95,6 +95,7 @@ class Writable {
 
   serialize() {
     // Implement the serialize method for Writable.
+    this.writable = writable;
   }
 }
 
