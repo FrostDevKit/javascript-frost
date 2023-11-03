@@ -120,6 +120,8 @@ class SignatureShare {
 class SignatureMachine {
   constructor() {
     // Implement the SignatureMachine class as needed for your use case.
+    contructor(signaturemachine) {
+      this.signaturemachine = signaturemachine
   }
 
   readShare(reader) {
