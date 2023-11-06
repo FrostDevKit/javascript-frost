@@ -248,6 +248,9 @@ class BatchVerifier {
 
   queue(rng, participant, statements) {
     // Implement the queue method for BatchVerifier.
+    rng = rng;
+    participant = participant;
+    statements = statements;
   }
 
   verifyVartimeWithVartimeBlame() {
