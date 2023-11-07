@@ -1,4 +1,5 @@
 const { ChaCha20RNG } = require('tapscript');
+const { P2TR } = require('tapscript');
 
 class Zeroizing {
   constructor(value) {
