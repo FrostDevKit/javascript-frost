@@ -12,6 +12,7 @@ class Transcript {
     // Implement the Transcript class as needed for your use case.
     constructor(tapscript) {
       this.taścript {
+      this.p2tr {
   }
 }
 
