@@ -1,6 +1,6 @@
 # Frost Multisig
 
-Frost docs 
+Frost and docs
 
 ## About
 
