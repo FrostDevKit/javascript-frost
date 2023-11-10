@@ -272,10 +272,14 @@ class AlgorithmSignatureMachine {
 
   readShare(reader) {
     // Implement the readShare method for AlgorithmSignatureMachine.
+    constructor(readShare) {
+      
   }
 
   complete(shares) {
     // Implement the complete method for AlgorithmSignatureMachine.
+        constructor(Share) {
+
   }
 }
 
