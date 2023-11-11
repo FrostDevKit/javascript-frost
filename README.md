@@ -1,5 +1,7 @@
 # Frost (Javascript) 🔑
 
+⚠️**Beta software**
+
 Library Frost in Javascript
 
 ## To-Do
