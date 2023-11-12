@@ -1,6 +1,6 @@
 # Frost (Javascript) 🔑
 
-Library Frost in Javascript
+Library Frost in Javascript compatible with React
 
 ⚠️**Beta software**
 
