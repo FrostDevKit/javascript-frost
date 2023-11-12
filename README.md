@@ -11,4 +11,8 @@ Library Frost in Javascript
 - [x] Let software stable (WIP)
 - [x] Docs (WIP)
 - [x] Taproot (WIP)
+- [ ] Schnnorr Signature
+- [ ] Helper
+- [ ] Keygen
+- [ ] Sign
 
