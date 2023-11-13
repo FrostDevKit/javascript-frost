@@ -15,4 +15,5 @@ Library Frost in Javascript compatible with React
 - [ ] Helper
 - [ ] Keygen
 - [ ] Sign
+- [ ] Elliptic curve
 
