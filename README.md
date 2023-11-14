@@ -1,10 +1,10 @@
 # Frost (Javascript) 🔑
 
+**Contributions are welcome**
+
 Library Frost in Javascript compatible with React
 
 ⚠️**Beta software**
-
-**Contributions are welcome**
 
 ## To-Do
 
