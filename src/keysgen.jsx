@@ -7,3 +7,5 @@ export const ellipticurve
 const commitShare = {
 
 const KeyGenCommit = {
+
+const Share = {
