@@ -17,3 +17,8 @@ Library Frost in Javascript compatible with React
 - [ ] Sign
 - [ ] Elliptic curve
 
+## Contributors
+
+<a align="center" href="https://github.com/FrostDevKit/javascript-frost/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FrostDevKit/javascript-frost" />
+</a>
