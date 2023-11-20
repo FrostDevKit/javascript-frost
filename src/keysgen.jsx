@@ -9,5 +9,9 @@ pub commitment: Vec<RistrettoPoint>;
 pub commitment: String;
   
 const KeyGenCommit = {
+  index: u32;
+  shares_commitment: SharesCommitment;
+  zkp: Signature;
+  
 
 const Share = {
