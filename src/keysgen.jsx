@@ -9,9 +9,9 @@ pub ristrettoPoint: String;
 pub commitment: String;
   
 const KeyGenCommit = {
-  index: u32;
-  shares_commitment: SharesCommitment;
-  zkp: Signature;
+pub  index: u32;
+pub shares_commitment: SharesCommitment;
+pub zkp: Signature;
   
 
 const Share = {
