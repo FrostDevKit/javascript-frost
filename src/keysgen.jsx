@@ -15,3 +15,6 @@ pub zkp: Signature;
   
 
 const Share = {
+  pub share: Share;
+  pub zkp: Signature;
+  
