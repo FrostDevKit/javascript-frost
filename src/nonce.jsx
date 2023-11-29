@@ -13,6 +13,7 @@ class GeneratorCommitments {
 
   static read(reader) {
     // Implement read logic
+    const read = new Reader( [
   }
 
   write(writer) {
