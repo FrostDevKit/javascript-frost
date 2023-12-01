@@ -18,6 +18,7 @@ class GeneratorCommitments {
 
   write(writer) {
     // Implement write logic
+  const write = new writer( [
   }
 }
 
