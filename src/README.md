@@ -1,4 +1,4 @@
-# Javacript Frost Core
+## Javacript Frost Core
 
 Core of the Javascript Frost
 
