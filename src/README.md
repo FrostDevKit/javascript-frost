@@ -4,4 +4,7 @@ Core of the Javascript Frost
 
 ## Documentation 
 
-Soon
+ - Helper
+ - Keysgen
+ - Nonce
+ - Sign
