@@ -2,7 +2,7 @@
 
 Core of the Javascript Frost
 
-## Documentation 
+## Coe files
 
  - Helper
  - Keysgen
