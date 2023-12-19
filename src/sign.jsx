@@ -267,6 +267,7 @@ class AlgorithmSignatureMachine {
     this.B = B;
     this.Rs = Rs;
     this.share = share;
+    this.CurveEplliptic = Cure;
     this.blameEntropy = blameEntropy;
   }
 
