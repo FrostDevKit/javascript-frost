@@ -4,7 +4,7 @@
 
 Library Frost in Javascript compatible with React
 
-⚠️**Beta software WIP**
+⚠️**Beta software and WIP**
 
 ## To-Do
 
