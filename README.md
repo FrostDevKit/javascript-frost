@@ -11,12 +11,13 @@ Library Frost in Javascript compatible with React
 - [x] Let software stable (WIP)
 - [x] Docs (WIP)
 - [x] Taproot (WIP)
+- [ ] Musig2
 - [ ] Schnorr Signature
 - [ ] Helper
 - [ ] Keygen
 - [ ] Sign
 - [ ] Elliptic curve
-- [ ] Complete Taproot integration
+- [x] Complete Taproot integration
 
 ## Contributors
 
