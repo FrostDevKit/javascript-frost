@@ -18,7 +18,7 @@ Library Frost in Javascript compatible with React
 - [ ] Sign
 - [ ] Elliptic curve
 - [x] Complete Taproot integration
-- [ ] Release out of beta
+- [ ] Release out of beta in 2024
 
 ## Contributors
 
