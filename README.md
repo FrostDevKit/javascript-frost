@@ -19,7 +19,8 @@ Library Frost in Javascript compatible with React
 - [ ] Elliptic curve
 - [x] Complete Taproot integration (WIP)
 - [ ] Release out of beta in 2024
-- [ ] Sync with BIP frost and PoC
+- [ ] Sync with others libraries
+- [ ] BIP and PoC
 
 ## Contributors
 
