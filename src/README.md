@@ -8,3 +8,4 @@ Core of the Javascript Frost
  - Keysgen
  - Nonce
  - Sign
+ - BIP
