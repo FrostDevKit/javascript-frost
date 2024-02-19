@@ -1,4 +1,4 @@
-# Frost (Javascript) 🔑
+# Frost (Javascript) 🔑 ⚡
 
 **Contributions are welcome**
 
