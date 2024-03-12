@@ -5,16 +5,16 @@ export const secp256k1
 export const ellipticurve
 
 const commitShare = { 
-pub ristrettoPoint: String;
-pub commitment: String;
+export pub ristrettoPoint: String;
+export pub commitment: String;
   
 const KeyGenCommit = {
-pub  index: u32;
-pub shares_commitment: SharesCommitment;
-pub zkp: Signature;
+export pub  index: u32;
+export pub shares_commitment: SharesCommitment;
+export pub zkp: Signature;
   
 
 const Share = {
-  pub share: Share;
-  pub zkp: Signature;
+ export pub share: Share;
+ export pub zkp: Signature;
   
