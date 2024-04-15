@@ -21,6 +21,7 @@ Library Frost in Javascript compatible with React
 - [ ] Release out of beta in 2024
 - [ ] Sync with others libraries
 - [ ] BIP and PoC (Unique Key)
+- [ ] WASM
 
 ## Contributors
 
