@@ -8,7 +8,6 @@ Library Frost in Javascript compatible with React
 
 ## To-Do
 
-- [x] Let software stable (WIP)
 - [x] Docs (WIP)
 - [x] Taproot (WIP)
 - [ ] Musig2
