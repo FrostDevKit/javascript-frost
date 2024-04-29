@@ -21,6 +21,7 @@ Library Frost in Javascript compatible with React
 - [ ] Sync with others libraries
 - [ ] BIP and PoC (Unique Key)
 - [ ] WASM
+- [ ] Compile
 
 ## Contributors
 
