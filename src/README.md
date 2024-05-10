@@ -9,3 +9,4 @@ Core of the Javascript Frost
  - Nonce
  - Sign
  - BIP
+ - Lightning
