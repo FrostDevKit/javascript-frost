@@ -19,7 +19,7 @@ Library Frost in Javascript compatible with React
 - [x] Complete Taproot integration (WIP)
 - [ ] Sync with others libraries
 - [ ] BIP and PoC (Unique Key)
-- [ ] WASM
+- [ ] WASM compatible
 - [ ] Compile
 - [ ] Testnet4
 
