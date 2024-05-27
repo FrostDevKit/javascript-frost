@@ -3,3 +3,8 @@
 "vesion":"1.0.9-beta",
 "license":"MIT"
 }
+{
+"dependencies": {
+"bitcoinjs-lib": "^6.1.5",
+}
+}
