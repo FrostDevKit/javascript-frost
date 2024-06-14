@@ -20,7 +20,7 @@ Library Frost in Javascript compatible with React
 - [ ] Elliptic curve
 - [x] Complete Taproot integration (WIP)
 - [ ] Sync with others libraries
-- [ ] BIP and PoC (Unique Key)
+- [x] BIP and PoC (Unique Key) [WIP]
 - [ ] WASM compatible
 - [ ] Testnet4
 
