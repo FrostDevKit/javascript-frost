@@ -8,6 +8,8 @@ Library Frost in Javascript compatible with React
 
 ⚠️**Use small amount**
 
+⚠️**Don't use for mainnet**
+
 ## To-Do
 
 - [x] Docs (WIP)
