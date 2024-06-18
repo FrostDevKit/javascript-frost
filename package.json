@@ -1,10 +1,18 @@
 {
-"name":"javascript-frost",
-"vesion":"1.0.10-beta",
-"license":"MIT"
-}
-{
-"dependencies": {
-"bitcoinjs-lib": "^6.1.6",
-}
-}
+    "name":"javascript-frost",
+    "vesion":"1.0.10-beta",
+    "license":"MIT",
+    "description": "Javascript Frost",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "bitcoinjs-lib": "^6.1.6",
+      "bitcoinjs-message": "^6.0.0",
+      "bip39": "^2.5.0",
+      "bs58check": "^2.1.2"
+    },
+    "devDependencies": {},
+    "author": "FDK"  }
+  
