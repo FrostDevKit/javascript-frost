@@ -3,9 +3,9 @@
     "vesion":"1.0.10-beta",
     "license":"MIT",
     "description": "Javascript Frost",
-    "main": "index.js",
+    "main": "index.jsx",
     "scripts": {
-      "start": "node index.js"
+      "start": "node index.jsx"
     },
     "dependencies": {
       "bitcoinjs-lib": "^6.1.6",
