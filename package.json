@@ -6,6 +6,7 @@
     "main": "index.jsx",
     "scripts": {
       "start": "node index.jsx"
+      "start": "node index.js"
     },
     "dependencies": {
       "bitcoinjs-lib": "^6.1.6",
