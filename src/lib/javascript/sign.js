@@ -1,6 +1,7 @@
 const { Sign } = require('crypto');
 const { createHash } = require('crypto');
 const { randomBytes } = require('crypto');
+const { promisify } = require('util');
 
 const sign = (data, secret) => {
   const hash = createHash('sha256');
@@ -38,6 +39,14 @@ async function sign(): (data, secret) => {
     sign.end();
     return sign.sign(buf);
   });
+};
+async function verify(): (data, secret, signature) => {
+  const buf = await randomBytes(32);
+  const sign = new Sign('sha256');
+  sign.update(data);
+  sign.update(secret);
+  sign.end();
+  return sign.verify(buf, signature);
 };
 
 console .log(sign('123', '123'));
