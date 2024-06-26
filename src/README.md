@@ -2,7 +2,7 @@
 
 Core of the Javascript Frost
 
-## Coe files
+## Core files
 
  - Helper
  - Keysgen
@@ -10,3 +10,4 @@ Core of the Javascript Frost
  - Sign
  - BIP
  - Lightning
+ - Nostr (soon)
