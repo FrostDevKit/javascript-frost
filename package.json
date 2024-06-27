@@ -1,19 +1,25 @@
 {
-    "name":"javascript-frost",
-    "vesion":"1.0.10-beta",
-    "license":"MIT",
-    "description": "Javascript Frost",
-    "main": "index.jsx",
-    "scripts": {
-      "start": "node index.jsx"
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "bitcoinjs-lib": "^6.1.6",
-      "bitcoinjs-message": "^6.0.0",
-      "bip39": "^2.5.0",
-      "bs58check": "^2.1.2"
-    },
-    "devDependencies": {},
-    "author": "FDK"  }
-  
+  "name": "javascript-frost",
+  "version": "1.0.10-beta",
+  "license": "MIT",
+  "description": "Javascript Frost",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.6",
+    "bitcoinjs-message": "^2.0.0",
+    "bip39": "^2.5.0",
+    "bs58check": "^2.1.2"
+  },
+  "author": "FDK",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostDevKit/javascript-frost.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}

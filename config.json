@@ -1,0 +1,8 @@
+{
+    "network": {
+      "mainnet": "https://mempool.space/",
+      "testnet4": "https://mempool.space/testnet4",
+      "signet": "https://mempool.space/signet"
+    }
+  }
+  
