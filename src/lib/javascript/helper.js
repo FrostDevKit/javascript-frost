@@ -19,6 +19,9 @@ const client = new Client({
 client.connect()
 
 module.exports =  client = new Client {
+    /**
+     * The PostgreSQL database user to connect as.
+     */
     user: 'postgres',
     host: 'localhost',
     database: 'postgres',
