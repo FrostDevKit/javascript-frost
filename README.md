@@ -25,6 +25,7 @@ Library Frost in Javascript compatible with React
 - [x] BIP and PoC (Unique Key) [WIP]
 - [ ] WASM compatible
 - [ ] Testnet4
+- [ ] NPM package
 
 ## Contributors
 
