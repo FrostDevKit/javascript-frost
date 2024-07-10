@@ -1,4 +1,4 @@
-const {UTXO, Payment, P2TR} = require('bitcoinjs-lib');
+import { UTXO, Payment, P2TR } from 'bitcoinjs-lib';
 
 const {
   P2TR: {
