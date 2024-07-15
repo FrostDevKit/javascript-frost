@@ -26,7 +26,7 @@ Library Frost in Javascript compatible with React
 - [ ] WASM compatible
 - [ ] Testnet4
 - [ ] NPM package
-- [ ] Nostr
+- [ ] Nostr (basic)
 ## Contributors
 
 <a align="center" href="https://github.com/FrostDevKit/javascript-frost/graphs/contributors">
