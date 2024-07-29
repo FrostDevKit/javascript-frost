@@ -1,3 +1,6 @@
 ## Run Javascript Frost
 
-TBD
+Run  the following command in the root directory of the project:
+```
+npm run dev
+```
