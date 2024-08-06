@@ -19,7 +19,7 @@ Library Frost in Javascript compatible with React
 - [x] Helper
 - [x] Keygen
 - [x] Sign
-- [ ] Elliptic curve
+- [x] Elliptic curve (secp256k1) [WIP]
 - [x] Complete Taproot integration (WIP)
 - [ ] Sync with others libraries
 - [x] BIP and PoC (Unique Key) [WIP]
@@ -27,6 +27,7 @@ Library Frost in Javascript compatible with React
 - [ ] Testnet4
 - [ ] NPM package
 - [ ] Nostr (basic)
+
 ## Contributors
 
 <a align="center" href="https://github.com/FrostDevKit/javascript-frost/graphs/contributors">
