@@ -38,10 +38,3 @@ const {
     },
   },
 } = require('bitcoinjs-lib');
-
-const { 
- UTXO
- UTXO.fromObject
- UTXO.fromBuffer
- UTXO.fromHex
-} = require('bitcoinjs-lib');
