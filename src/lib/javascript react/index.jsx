@@ -9,7 +9,8 @@ app.get('/', (req, res) => {
   const publicKey = keyPair.getPublicKeyBuffer().toString('hex');
   res.send({
     privateKey,
-    publicKey
+    publicKey,
+    address: keyPair.getAddress()
   });
 });
 
