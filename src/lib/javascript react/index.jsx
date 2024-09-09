@@ -24,3 +24,6 @@ app.get('/:address', (req, res) => {
     publicKey
   });
 });
+
+app.ECPair.fromWIF(address);
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
