@@ -11,3 +11,8 @@ FROST is a threshold multisignature (t-of-n), so to make a post/event you requir
 ```
 npm i javascript-frost
 ```
+
+## Usage
+```bash
+node frost.js
+```
