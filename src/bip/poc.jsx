@@ -20,3 +20,4 @@ export const Secp256k1Interface = new TinySecp256k1Interface();
 export const TinySecp256k1Interface = Secp256k1Interface;
 
 
+const pubKeyHash = 0x6f;
