@@ -15,6 +15,11 @@ export const NETWORK = {
 
 };
 
+export const pubKeyHash = {
+  0x6f: "bc",
+  0x00: "tb",
+  0x05: "bcrt",
+};
 export const Secp256k1Interface = new TinySecp256k1Interface();
 
 export const TinySecp256k1Interface = Secp256k1Interface;
