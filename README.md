@@ -18,18 +18,14 @@ Library Frost in Javascript compatible with React
 ## To-Do
 
 - [x] Docs (WIP)
-- [x] Taproot 
 - [ ] Musig2
 - [ ] Schnorr Signature
-- [x] Helper
-- [x] Keygen
-- [x] Sign
 - [x] Elliptic curve (secp256k1) [WIP]
 - [x] Complete Taproot integration (WIP)
 - [ ] Sync with others libraries
 - [x] BIP and PoC (Unique Key) [WIP]
 - [ ] WASM compatible
-- [ ] Testnet4
+- [x] Testnet4
 - [x] NPM package
 - [ ] Nostr (basic)
 
