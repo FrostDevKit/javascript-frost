@@ -16,3 +16,6 @@ npm i javascript-frost
 ```bash
 node frost.js
 ```
+
+## License
+MIT
