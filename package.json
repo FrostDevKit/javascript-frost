@@ -8,9 +8,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "bitcoinjs-lib": "^6.1.6",
-    "bitcoinjs-message": "^2.2.0",
     "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "bitcoinjs-message": "^1.0.0",
     "bs58check": "^4.0.0"
   },
   "author": "FDK",
