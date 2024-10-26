@@ -17,7 +17,7 @@ Library Frost in Javascript compatible with React
 
 ## To-Do
 
-- [x] Docs (WIP)
+- [x] Docs 
 - [ ] Musig2
 - [ ] Schnorr Signature
 - [x] Elliptic curve (secp256k1) [WIP]
