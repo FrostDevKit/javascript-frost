@@ -17,7 +17,6 @@ Library Frost in Javascript compatible with React
 
 ## To-Do
 
-- [x] Docs 
 - [ ] Musig2
 - [ ] Schnorr Signature
 - [x] Elliptic curve (secp256k1) [WIP]
@@ -25,8 +24,6 @@ Library Frost in Javascript compatible with React
 - [ ] Sync with others libraries
 - [x] BIP and PoC (Unique Key) [WIP]
 - [ ] WASM compatible
-- [x] Testnet4
-- [x] NPM package
 - [ ] Nostr (basic)
 
 ## Contributors
