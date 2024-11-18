@@ -25,6 +25,8 @@ Library Frost in Javascript compatible with React
 - [x] BIP and PoC (Unique Key) [WIP]
 - [ ] WASM compatible
 - [ ] Nostr (basic)
+- [ ] Lightning network (basic)
+- [ ] 
 
 ## Contributors
 
