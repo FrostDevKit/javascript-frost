@@ -26,7 +26,7 @@ Library Frost in Javascript compatible with React
 - [ ] WASM compatible
 - [ ] Nostr (basic)
 - [ ] Lightning network (basic)
-- [ ] 
+- [ ] iOs and Android compatible
 
 ## Contributors
 
