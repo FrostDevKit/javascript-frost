@@ -21,5 +21,8 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
+  },
+  "devDependencies": {
+    "react-native": "^0.76.3"
   }
 }
