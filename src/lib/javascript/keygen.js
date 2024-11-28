@@ -2,13 +2,14 @@ const {Keys,PrivateKey,PublicKey} = require('bitcoinjs-lib');
 
 const key = new PrivateKey();
 const PublicKey = key.toPublicKey();
-const address = publicKey.toAddress();const keys = Keys.fromPrivateKey(key);
+const addressFromPublicKey = publicKey.toAddress();
+const keys = Keys.fromPrivateKey(key);
 const publicKey = keys.publicKey;
 const privateKey = keys.toWIF();
 
 const {Address} = bitcoin.payments.p2pkh({pubkey: publicKey});
 const {address} = bitcoin.payments.p2wpkh({pubkey: publicKey});
-const {address} = bitcoin.payments.p2wpkh({pubkey: publicKey, network: bitcoin.networks.testnet});
+const { address: testnetAddress } = bitcoin.payments.p2wpkh({pubkey: publicKey, network: bitcoin.networks.testnet});
 const {address} = bitcoin.payments.p2wpkh({pubkey: publicKey, network: bitcoin.networks.regtest});
 const {address} = bitcoin.payments.p2ptr({pubkey: publicKey, network: bitcoin.networks.testnet});
 
