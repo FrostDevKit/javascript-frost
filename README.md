@@ -7,7 +7,7 @@
 
 **Contributions are welcome**
 
-Library Frost in Javascript compatible with React
+>Library Frost in Javascript compatible with React
 
 ⚠️**Beta software and WIP**
 
