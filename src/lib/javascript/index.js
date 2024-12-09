@@ -27,9 +27,10 @@ describe('BitcoinJS-Lib', () => {
     expect(address).toBe('111111111111111111114oLvT2');
     expect(isValidAddress(address)).toBe(true);
   });
-    it('should get address from private key', () => {
-      const privateKey = new PrivateKey(Buffer.from('0000000000000000000000000000000000000000000000000000000000000000', 'hex'));
-      const address = getAddressFromPrivateKey(privateKey);
-      expect(address).toBe('111111111111111111114oLvT2');
-    });
-}
+
+  it('should get address from private key', () => {
+    const privateKey = new PrivateKey(Buffer.from('0000000000000000000000000000000000000000000000000000000000000000', 'hex'));
+    const address = getAddressFromPrivateKey(privateKey);
+    expect(address).toBe('111111111111111111114oLvT2');
+  });
+});
