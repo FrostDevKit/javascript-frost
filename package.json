@@ -23,6 +23,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "react-native": "^0.76.3"
+    "react-native": "^0.76.5"
   }
 }
