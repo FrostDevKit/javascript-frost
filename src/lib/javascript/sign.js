@@ -1,53 +1,35 @@
-const { Sign } = require('crypto');
-const { createHash } = require('crypto');
-const { randomBytes } = require('crypto');
+const { createHmac, randomBytes } = require('crypto');
 const { promisify } = require('util');
 
+const randomBytesAsync = promisify(randomBytes);
+
+// Sign data securely with HMAC
 const sign = (data, secret) => {
-  const hash = createHash('sha256');
-  hash.update(data);
-  hash.update(secret);
-  return hash.digest('hex');
+  const hmac = createHmac('sha256', secret);
+  hmac.update(data);
+  return hmac.digest('hex');
 };
 
+// Verify data securely
 const verify = (data, secret, signature) => {
   return sign(data, secret) === signature;
 };
 
-module.exports = {
-  sign,
-  verify
-};
+async function asyncSign(data, secret) {
+  const key = await randomBytesAsync(32); // Generate random key
+  const hmac = createHmac('sha256', secret + key.toString('hex'));
+  hmac.update(data);
+  return hmac.digest('hex');
+}
 
-const randomBytes = (size) => {
-  return new Promise((resolve, reject) => {
-    randomBytes(size, (err, buf) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(buf);
-      }
-    });
-  });
-};
+async function asyncVerify(data, secret, signature) {
+  const key = await randomBytesAsync(32);
+  const hmac = createHmac('sha256', secret + key.toString('hex'));
+  hmac.update(data);
+  return hmac.digest('hex') === signature;
+}
 
-async function sign(): (data, secret) => {
-  return randomBytes(32).then(buf => {
-    const sign = new Sign('sha256');
-    sign.update(data);
-    sign.update(secret);
-    sign.end();
-    return sign.sign(buf);
-  });
-};
-async function verify(): (data, secret, signature) => {
-  const buf = await randomBytes(32);
-  const sign = new Sign('sha256');
-  sign.update(data);
-  sign.update(secret);
-  sign.end();
-  return sign.verify(buf, signature);
-};
-
-console .log(sign('123', '123'));
-
+(async () => {
+  console.log(sign('123', 'secret-key')); // Synchronous signing
+  console.log(await asyncSign('123', 'secret-key')); // Asynchronous signing
+})();
