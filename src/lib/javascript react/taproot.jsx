@@ -1,4 +1,4 @@
-import { UTXO, Payment, P2TR } from 'bitcoinjs-lib';
+import { Taproot } from 'bitcoinjs-lib';
 
 const {
   P2TR: {
@@ -38,3 +38,4 @@ const {
     },
   },
 } = require('bitcoinjs-lib');
+
