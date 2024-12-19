@@ -22,7 +22,7 @@
 - [x] Elliptic curve (secp256k1) [WIP]
 - [x] Complete Taproot integration (WIP)
 - [ ] Sync with others libraries
-- [x] BIP and PoC (Unique Key) [WIP]
+- [x] BIP and PoC (Unique Key)
 - [ ] WASM compatible
 - [ ] Nostr (basic)
 - [ ] Lightning network (basic)
