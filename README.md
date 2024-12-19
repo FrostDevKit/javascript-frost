@@ -17,16 +17,13 @@
 
 ## To-Do
 
-- [ ] Musig2
 - [ ] Schnorr Signature
 - [x] Elliptic curve (secp256k1) [WIP]
-- [x] Complete Taproot integration (WIP)
+- [x] Complete Taproot integration
 - [ ] Sync with others libraries
 - [x] BIP and PoC (Unique Key)
-- [ ] WASM compatible
 - [ ] Nostr (basic)
 - [ ] Lightning network (basic)
-- [ ] iOs and Android compatible
 - [ ] Out of Beta in 2025
 
 ## Contributors
