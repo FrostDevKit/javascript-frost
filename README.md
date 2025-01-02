@@ -17,7 +17,7 @@
 
 ## To-Do
 
-- [ ] Schnorr Signature
+- [x] Schnorr Signature (WIP)
 - [x] Elliptic curve (secp256k1) [WIP]
 - [x] Complete Taproot integration
 - [ ] Sync with others libraries
