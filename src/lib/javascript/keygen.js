@@ -9,7 +9,7 @@ const privateKey = keys.toWIF();
 
 const {Address} = bitcoin.payments.p2pkh({pubkey: publicKey});
 const {address: p2wpkhAddress} = bitcoin.payments.p2wpkh({pubkey: publicKey});const { address: testnetAddress } = bitcoin.payments.p2wpkh({pubkey: publicKey, network: bitcoin.networks.testnet});
-const {address} = bitcoin.payments.p2wpkh({pubkey: publicKey, network: bitcoin.networks.regtest});
+const {address: regtestAddress} = bitcoin.payments.p2wpkh({pubkey: publicKey, network: bitcoin.networks.regtest});
 const {address} = bitcoin.payments.p2ptr({pubkey: publicKey, network: bitcoin.networks.testnet});
 
 const Keys = {
