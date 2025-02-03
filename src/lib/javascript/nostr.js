@@ -1,4 +1,4 @@
-import { Npub, Relay } from "nostr-tools";
+import { Npub, Nsec,  Relay } from "nostr-tools";
 
 const relay = new Relay("wss://relay.damus.io");
 
@@ -11,5 +11,6 @@ relay.on("disconnect", () => {
 });
 
 const Npub = new Npub(relay);
+const Nsec = new Nsec(relay);
 
 export { Npub, Relay };
