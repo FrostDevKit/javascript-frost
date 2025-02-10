@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
   res.send({
     privateKey,
     publicKey,
+    publicKeyHash: keyPair.getPublicKeyHash(),
     address: keyPair.getAddress()
   });
 });
