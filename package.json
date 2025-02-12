@@ -11,7 +11,8 @@
     "bip39": "^3.1.0",
     "bitcoinjs-lib": "^6.1.7",
     "bitcoinjs-message": "^2.2.0",
-    "bs58check": "^4.0.0"
+    "bs58check": "^4.0.0",
+    "lightningdevkit": "^0.1.0"
   },
   "author": "FDK",
   "repository": {
@@ -23,7 +24,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "react-native": "^0.77.0",
-    "react": "^18.3.0"
+    "react": "^18.3.0",
+    "react-native": "^0.77.0"
   }
 }
