@@ -21,7 +21,6 @@
 - [x] Elliptic curve (secp256k1) [WIP]
 - [x] Complete Taproot integration
 - [ ] Sync with others libraries
-- [x] BIP and PoC (Unique Key)
 - [ ] Nostr (basic)
 - [ ] Lightning network (basic)
 - [ ] Out of Beta in 2025
