@@ -10,4 +10,5 @@ Core of the Javascript Frost
  - Sign
  - BIP
  - Lightning
- - Nostr (soon)
+ - Nostr
+ - Core
