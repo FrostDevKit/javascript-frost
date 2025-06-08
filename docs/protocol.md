@@ -14,7 +14,7 @@ npm i javascript-frost
 
 ## Usage
 ```bash
-node frost.js
+node index.js
 ```
 
 ## License
