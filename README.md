@@ -23,7 +23,7 @@
 - [x] Nostr (basic)
 - [x] Lightning network (basic)
 - [ ] Out of Beta in 2025
-- [ ] Add WASM compatiblity
+- [x] Add WASM compatiblity
 
 ## Contributors
 
