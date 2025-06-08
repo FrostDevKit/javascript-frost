@@ -15,15 +15,10 @@
 
 ⚠️**Don't use for mainnet**
 
-## To-Do
+## Roadmap
 
-- [x] Schnorr Signature (WIP)
-- [x] Elliptic curve (secp256k1) 
-- [x] Complete Taproot integration
-- [x] Nostr (basic)
-- [x] Lightning network (basic)
 - [ ] Out of Beta in 2025
-- [x] Add WASM compatiblity
+- [ ] Fix docs
 
 ## Contributors
 
