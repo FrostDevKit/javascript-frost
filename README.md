@@ -18,11 +18,10 @@
 ## To-Do
 
 - [x] Schnorr Signature (WIP)
-- [x] Elliptic curve (secp256k1) [WIP]
+- [x] Elliptic curve (secp256k1) 
 - [x] Complete Taproot integration
-- [ ] Sync with others libraries
-- [ ] Nostr (basic)
-- [ ] Lightning network (basic)
+- [x] Nostr (basic)
+- [x] Lightning network (basic)
 - [ ] Out of Beta in 2025
 - [ ] Add WASM compatiblity
 

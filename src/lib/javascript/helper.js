@@ -18,7 +18,8 @@ const client = new Client({
 
 client.connect()
 
-module.exports = client = new Client({
+module.exports = {
+  client: new Client({
     /**
      * The PostgreSQL database user to connect as.
      */
@@ -27,4 +28,5 @@ module.exports = client = new Client({
     database: 'postgres',
     password: '<PASSWORD>',
     port: 5432,
-  });
+  })
+}

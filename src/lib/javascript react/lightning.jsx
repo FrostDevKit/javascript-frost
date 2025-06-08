@@ -1,13 +1,14 @@
-import React from 'react';
+import  { PaymentHash } from '@noble/hashes/payment'
 
-export const Lightning = {
-  htlc: function(props) {
-    return (
-      <div className="lightning">
-        <div className="lightning-bolt"></div>
-        <div className="lightning-bolt"></div>
-        <div className="lightning-bolt"></div>
-      </div>
-    );
-  }
-}
+const paymentHash = new PaymentHash({
+  amount: 10000,
+  expiry: 3600,
+  description: 'Test Payment',
+  preimage: Buffer.from('00000000000000000000000000000000000000000000000000000000000000000', 'hex'),
+  descriptionHash: '0000000000000000000000000000000000000000000000000000000000000000',
+  paymentHash: '000000000000000000000000000000000000000000000000000000000000000',
+  paymentSecret: '0000000000000000000000000000000000000000000000000000000000000000',
+});
+
+console.log(paymentHash.toString());
+// 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
