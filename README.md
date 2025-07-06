@@ -18,7 +18,7 @@
 ## Roadmap
 
 - [ ] Out of Beta in 2025
-- [ ] Fix docs
+- [x] Fix docs
 
 ## Contributors
 
