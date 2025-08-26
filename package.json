@@ -15,7 +15,8 @@
     "bitcoinjs-message": "^2.2.0",
     "bs58check": "^4.0.0",
     "elliptic": "^6.6.1",
-    "lightningdevkit": "^0.1.0"
+    "lightningdevkit": "^0.1.0",
+    "sha.js": ">=2.4.12"
   },
   "author": "FDK",
   "repository": {
